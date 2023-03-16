@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="322dp"
+    android:layout_height="591dp"
+    tools:context=".ChOneFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTitleOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter One"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewPara1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ChOnePara1"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/snow_white_mirror" />
+
+            <TextView
+                android:id="@+id/textViewPara2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ChOnePara2"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

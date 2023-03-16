@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="332dp"
+    android:layout_height="591dp"
+    tools:context=".ChFourFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewCh4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter Four"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewCh4Para1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Ch4Para1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewCh5Para2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Ch4Para2"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/snow_white_apple" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
